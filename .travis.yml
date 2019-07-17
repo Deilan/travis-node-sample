@@ -1,0 +1,23 @@
+if: tag IS blank
+
+sudo: false
+dist: trusty
+
+language: node_js
+node_js:
+  - '12'
+
+git:
+  depth: 1
+
+addons:
+  apt:
+    packages:
+    - curl
+
+install:
+  - ":"
+
+script:
+  - ":"
+  
