@@ -14,9 +14,10 @@ addons:
   apt:
     packages:
     - curl
+    update: true
 
 install:
-  - ":"
+  - curl --version
 
 script:
   - ":"
