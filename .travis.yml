@@ -10,11 +10,6 @@ node_js:
 git:
   depth: 1
 
-addons:
-  apt:
-    packages:
-    - curl
-
 install:
   - curl --version
 
